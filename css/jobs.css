@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../img/fon.jpg);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    padding: 10px;
+    width: 100px;
+}
+
+.mainlist{
+    text-align: center;
+    font-size: 25px;
+	padding: 25px;
+	background: white;
+}
+
+.mainlist a{
+	padding: 0 20px 0 20px;
+	font-family: 'Oswald', sans-serif;
+    color: red
+}
+
+.mainlist a:hover{
+    border-bottom: 1px solid red;
+}
+
+.photosjobs{
+	float: left;
+}
+
+.photosjobs img{
+	width: 90%;
+}
+
+main{
+	background-image: url(../img/jobs.jpg);
+	padding-bottom: 160px;
+	width: 100;
+}
+
+.info{
+padding-left: 50%;
+padding-top: 50px;
+}
+
+.info h1,h3{
+	width: 70%;
+	color: white;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 2px 2px 2px #000;
+}
+
+form{
+	text-align: right;
+	padding-top: 50px;
+}
+
+form p{
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 25px;
+	padding-bottom: 10px;
+	padding-right: 350px;
+} 
+.names{
+	padding-right: 200px;
+}
+
+.ages{
+	padding-right: 130px;
+}
+.phones{
+	padding-right: 80px;
+}
+.mails{
+	padding-right: 180px;
+}
+
+.submits {
+	font-family: 'Oswald', sans-serif;
+    padding-right: 65px;
+}
+
+footer{
+	background: white;
+}
+
+.podval{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.podval a{
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: red;
+}
+
+.number{
+	text-align: center;
+}
+
+.number a{
+	color: black;
+	font-size: 20px;
+}
+
+.mail{
+	text-align: center;
+}
+
+.mail a{
+	color: black;
+	font-size: 20px;
+}
+
+.textsocial p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.podval a:hover{
+    border-bottom: 1px solid red;
+}
+
+.social{
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.social a{
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+.social img{
+	padding-top: 15px;
+	width: 1.5%;
+}
+
+.social :hover{
+	background: 63594B;
+	border-radius: 5%;
+	opacity: 0.9;
+}

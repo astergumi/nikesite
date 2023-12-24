@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../img/fon.jpg);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    padding: 10px;
+    width: 100px;
+}
+
+.mainlist{
+    text-align: center;
+    font-size: 25px;
+	padding: 25px;
+	background: white;
+}
+
+.mainlist a{
+	padding: 0 20px 0 20px;
+	font-family: 'Oswald', sans-serif;
+    color: rgb(76, 99, 202);
+}
+
+.mainlist a:hover{
+    border-bottom: 1px solid rgb(76, 99, 202);
+}
+
+.novinki{
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 2px 2px 2px rgb(76, 99, 202);
+}
+
+.novinki h1:hover{
+	background: 63594B;
+	transform: scale(1.1); /* Увеличиваем масштаб */
+	transition: 1s; /* Время эффекта */
+}
+
+.main_container{
+    display: flex;
+ justify-content: center;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	font-size: 17px;
+}
+
+.container_items{
+    width: 30%;
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+}
+
+.container_items img{
+	width: 70%;
+}
+
+.nizkie img{
+	padding-top: 25px;
+}
+
+.container_items h1{
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+}
+
+.container_items h2{
+text-align: right;
+font-family: 'Oswald', sans-serif;
+color: rgb(76, 99, 202);
+text-shadow: 2px 2px 2px #000;
+display: inline;
+padding-left: 10px;
+}
+
+.container_items p{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.texts p{
+	padding-top: 20px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.container_items hr{
+    width: 100%;
+}
+
+.container_items img:hover{
+	background: 63594B;
+	border-radius: 5%;
+	opacity: 0.9;
+	transform: scale(1.1); /* Увеличиваем масштаб */
+	transition: 1s; /* Время эффекта */
+}
+footer{
+	background: white;
+}
+
+.podval{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.podval a{
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: rgb(76, 99, 202);
+}
+
+.number{
+	text-align: center;
+}
+
+.number a{
+	color: black;
+	font-size: 20px;
+}
+
+.mail{
+	text-align: center;
+}
+
+.mail a{
+	color: rgb(76, 99, 202);
+	font-size: 20px;
+}
+
+.textsocial p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.podval a:hover{
+    border-bottom: 1px solid rgb(76, 99, 202);
+}
+
+.social{
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.social a{
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+.social img{
+	padding-top: 15px;
+	width: 1.5%;
+}
+
+.social :hover{
+	background: 63594B;
+	border-radius: 5%;
+	opacity: 0.9;
+}
