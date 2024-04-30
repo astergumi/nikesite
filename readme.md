@@ -1,1 +1,1 @@
-https://astergumi.github.io/nikesite/
+https://osipovtwelve.github.io/nikesite/
